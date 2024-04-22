@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.bg_container {
+  background-color: #93c5fd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: white;
+  width: 70%;
+}
+.drop_down_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+.text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  margin: 10px;
+}
